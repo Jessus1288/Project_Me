@@ -3,297 +3,205 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Облачное хранилище</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <title>7 КОНТИНЕНТОВ</title>
   </head>
   <body>
-    <header class="header" id="1">
-      <div class="container-header">
-        <div class="div-logo">
-          <img src="img/logo.png" alt="logo" class="logo" />
-          <span class="text_logo"
-            >Лучшие детские<br />
-            курорты и маршруты</span
+    <!-- ШАПКА -->
+    <header class="header">
+      <!-- MENU -->
+      <nav class="menu">
+        <div class="logo_block">
+          <a href="#" class="menu_link"><img src="img/logo.png" alt="LOGO" class="logo" /></a>
+          <a href="#" class="menu_link"
+            ><span class="logo_text">moneyex<span class="logo_text_2">change</span></span></a
           >
         </div>
-        <div class="feedback">
-          <div class="tel">
-            <span class="questions">Есть вопросы? - звоните</span>
-            <a href="tel:+78182208010" class="phone">+7 (8182) 20-80-10</a>
-            <a href="tel:+79600028010" class="phone">+7 (960) 002-80-10</a>
-          </div>
-          <form action="#">
-            <input type="submit" class="button-header" value="Обратный звонок" />
-          </form>
+
+        <div class="menu_navigation">
+          <ul class="manu_ul">
+            <li class="menu_li"><a href="#" class="menu_link">Компания</a></li>
+            <li class="menu_li"><a href="#" class="menu_link">Блог</a></li>
+            <li class="menu_li"><a href="#" class="menu_link">Контакты</a></li>
+          </ul>
         </div>
-      </div>
 
-      <div class="header-content">
-        <h1 class="header-text">Детский отдых</h1>
-        <h4 class="header-text-lite">
-          Путевки в лучшие лагеря<br />
-          по ценам ниже рынка на 20%
-        </h4>
-        <span class="header-span shield-img"
-          >Мы сотрудничаем только с лицензированными лагерями<br />
-          прошедшими проверку контролирующими органами</span
-        >
-        <p class="span-text">Наши дети в безопасности</p>
+        <div class="registration">
+          <a href="#" class="input">Вход</a>
+          <button onclick="document.location='#'" class="reg"><span class="btn_text">Регистрация</span></button>
+        </div>
+      </nav>
+      <!-- END NAV -->
+      <div class="background">
+        <div class="container">
+          <div class="main_header">
+            <h1 class="header_title">
+              Мультивалютный <br />
+              обменный сервис 24/7
+            </h1>
+            <h4 class="header_subtitle">Быстрый обмен без скрытых комиссий</h4>
+            <div class="header_change">
+              <form action="" class="header_form">
+                <div class="section_1">
+                  <span class="form_text">Вы отдаете</span>
+                  <label for="input_summa" class="form_label">Сумма</label>
+                  <div class="form_change_num">
+                    <input type="number" id="input_summa" class="form_input" />
+                    <div class="select">
+                      <img src="img/sber_change_icon.png" alt="" class="sber_form" />
+                      <select class="form_select">
+                        <option disabled>Выберите валюту</option>
+                        <option>RUB</option>
+                        <option>EUR</option>
+                        <option>USD</option>
+                        <option>ALL</option>
+                        <option>DZD</option>
+                        <option>AZL</option>
+                        <option>KZT</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
 
-        <span class="header-span wallet-img i">Путевки частично оплачиваются из бюджета<br /></span>
-        <p class="span-text i_o">Вся информация и документы в офисе</p>
+                <div class="div-arrow">
+                  <img src="img/arrow_todo.png" alt="ARROW" class="arrow_todo" />
+                </div>
 
-        <span class="header-span girl-img"
-          >Профессиональные вожатые и педагоги<br />
-          с опытом работы в лагерях от 3 до 30 лет</span
-        >
-        <p class="span-text">Во время отдыха педагоги всегда на связи</p>
+                <div class="section_2">
+                  <span class="form_text">Вы получете <span class="dop_text">c учетом комиссии ПС (0.5%)</span> </span>
+                  <label for="input_summa" class="form_label">Сумма</label>
+                  <div class="form_change_num">
+                    <input type="number" id="input_summa" class="form_input" />
+                    <div class="select">
+                      <img src="img/ya-money.png" alt="" class="sber_form" />
+                      <select class="form_select">
+                        <option disabled>Выберите валюту</option>
+                        <option>RUB</option>
+                        <option>EUR</option>
+                        <option>USD</option>
+                        <option>ALL</option>
+                        <option>DZD</option>
+                        <option>AZL</option>
+                        <option>KZT</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <button onclick="document.location='#'" class="btn_form"><span class="btn_text_form">Обменять</span></button>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
 
-    <main class="main">
+    <!-- CONTENT -->
+    <main>
+      <!-- Блок с картинками, рефералка и тд -->
       <div class="container">
-        <div class="form">
-          <span class="title-form">Мы готовы дать Вам подробную консультацию</span>
-          <span class="subtitle-form">Поможем правильно подобрать путевку для Вашего ребенка под любой бюджет</span>
-          <div class="img-line">
-            <img src="img/line.png" alt="LINE" class="line" />
+        <div class="referal">
+          <div class="referal__content">
+            <div class="rcontent__img">
+              <img src="img/security.png" alt="ffffff" class="referal__img" />
+            </div>
+            <h4 class="referal__title">Безопасность</h4>
+            <span class="referal__text">Усиленная безопасность ваших обменов, усиленная безопасность от мошенников!</span>
           </div>
-          <span class="form-text h">Для этого заполните форму ниже - мы перезвоним Вам за 60 секунд</span>
-          <form action="#" class="up-form">
-            <input type="text" value="" class="input-1" placeholder="Ваше имя" />
-            <input type="tel" value="" class="input-2" placeholder="Ваш телефон" />
-            <input type="submit" class="button" value="Получить консультацию" />
-          </form>
-          <div class="callus"><span class="form-text pa-text">или перезвоните нам по телефону:</span><a href="tel:+78182208010" class="tel-link">+7 (8182) 20-80-10</a></div>
-        </div>
-      </div>
 
-      <div class="container_2">
-        <div class="card">
-          <div class="card-text">
-            <span class="title-card">Выберите путевку в лучшие лагеря страны</span>
-            <span class="subtitle-card">Каталог путевок с ценами:</span>
+          <div class="referal__content">
+            <div class="rcontent__img">
+              <img src="img/Referral.png" alt="ffffff" class="referal__img" />
+            </div>
+            <h4 class="referal__title">Реферальная система</h4>
+            <span class="referal__text">На сервисе работает партнерская программа , за каждый обмен приведенного вами клиента, вы получаете 0.5% с нашей прибыли.</span>
           </div>
-          <div class="button-div">
-            <input type="submit" class="button-card" value="Детский отдых в Архангельской области" />
-            <input type="submit" class="no-action" value="Детский отдых по России" />
-            <input type="submit" class="no-action" value="Детский отдых за рубежом" />
-          </div>
-          <hr class="line_card" />
-          <div class="girl-container">
-            <div class="card_girl">
-              <div class="img_girl">
-                <div class="div-img-girl">
-                  <img src="img/card_girls.png" alt="GIRL" class="girl" />
-                </div>
-                <div class="geo">
-                  <img src="img/placeholder.png" alt="GEO" class="geo_img" />
-                  <p class="city">Архангельская область</p>
-                  <img src="img/user_(10).png" alt="AGE" class="user_img" />
-                  <p class="age">от 7 до 17 лет</p>
-                </div>
-              </div>
-              <span class="card_girl_text">ДОЛ "Ватса-Парк"</span>
-              <span class="card_girl_city">(Котласский район>,Архангельская область)</span>
-              <a href="#" class="card_link">Подробнее</a>
+
+          <div class="referal__content">
+            <div class="rcontent__img">
+              <img src="img/online.png" alt="ffffff" class="referal__img" />
             </div>
-            <div class="card_girl">
-              <div class="img_girl">
-                <img src="img/card_girls.png" alt="GIRL" class="girl" />
-                <div class="geo">
-                  <img src="img/placeholder.png" alt="GEO" class="geo_img" />
-                  <p class="city">Архангельская область</p>
-                  <img src="img/user_(10).png" alt="AGE" class="user_img" />
-                  <p class="age">от 7 до 17 лет</p>
-                </div>
-              </div>
-              <span class="card_girl_text">ДОЛ "Ватса-Парк"</span>
-              <span class="card_girl_city">(Котласский район>,Архангельская область)</span>
-              <a href="#" class="card_link">Подробнее</a>
-            </div>
-            <div class="card_girl">
-              <div class="img_girl">
-                <img src="img/card_girls.png" alt="GIRL" class="girl" />
-                <div class="geo">
-                  <img src="img/placeholder.png" alt="GEO" class="geo_img" />
-                  <p class="city">Архангельская область</p>
-                  <img src="img/user_(10).png" alt="AGE" class="user_img" />
-                  <p class="age">от 7 до 17 лет</p>
-                </div>
-              </div>
-              <span class="card_girl_text">ДОЛ "Ватса-Парк"</span>
-              <span class="card_girl_city">(Котласский район>,Архангельская область)</span>
-              <a href="#" class="card_link">Подробнее</a>
-            </div>
+            <h4 class="referal__title">Онлайн поддержка</h4>
+            <span class="referal__text">Четыре вида поддержки для наших клиентов: Телеграмм канал, E-mail поддержка, и мобильный номер (Viber).</span>
           </div>
         </div>
       </div>
 
-      <div class="background">
-        <div class="container_3">
-          <div class="reser_text">
-            <span class="reser_title">Специальное предложение - успевайте забронировать!</span>
-            <span class="reser_subtitle">Путевка в детский оздоровительный лагерь "Лазуревый берег"</span>
-            <span class="reser_subtitle">на 18 дней всего <span class="reser_price">за 25 800 рублей!</span></span>
-          </div>
-          <div class="reser_present_img">
-            <img src="img/child-1.png" alt="" class="present_img" />
-            <img src="img/child-2.png" alt="" class="present_img" />
-            <img src="img/child-3.png" alt="" class="present_img" />
-            <img src="img/child-4.png" alt="" class="present_img" />
-          </div>
-          <div class="criteria_div">
-            <span class="criteria cri_img_1"
-              >Первая береговая линия<br />
-              - 50 метров до моря</span
-            >
-            <span class="criteria cri_img_2"
-              >Размещение: все номера<br />
-              трехместные</span
-            >
-            <span class="criteria cri_img_3"
-              >В номере все удобства,<br />
-              есть лоджии</span
+      <!-- Сервис обмена электронных валют с 5-летней историей и блок с валютами-->
+      <div class="background_2">
+        <!-- service -->
+        <div class="service">
+          <div class="service__text">
+            <h4 class="service__title">Сервис обмена электронных валют с 5-летней историей</h4>
+            <span class="service__subtitle"
+              >За время работы мы приобрели репутацию проверенного партнера и делаем все возможное, чтобы ваши впечатления от нашего сервиса были только благоприятными.</span
             >
           </div>
-
-          <!--Универсальная ФОРМА-->
-          <div class="reser_form">
-            <span class="title_reser">Получите полную информацию о путевке от наших специалистов</span>
-            <span class="subtitle_form h">Для этого заполните форму ниже - мы перезвоним Вам за 60 секунд</span>
-            <form action="#" class="up-form">
-              <input type="text" value="" class="input-1" placeholder="Ваше имя" />
-              <input type="tel" value="" class="input-2" placeholder="Ваш телефон" />
-              <input type="submit" class="button" value="Получить консультацию" />
-            </form>
-            <div class="callus"><span class="form-text pa-text">или перезвоните нам по телефону:</span><a href="tel:+78182208010" class="tel-link">+7 (8182) 20-80-10</a></div>
+          <div class="service_img">
+            <img src="img/two_men.png" alt="MEN" class="twomen" />
           </div>
         </div>
-      </div>
-
-      <div class="container_4">
-        <div class="document">
-          <div class="document_img">
-            <img src="img/doc-1.png" alt="DOC" class="img_document" />
-          </div>
-          <div class="document_text">
-            <span class="doc_title">Все граждане РФ, отдыхающие в детских лагерях,имеют право на социальную поддержку государством</span>
-            <span class="doc_subtitle-1">Право ребенка на частичную оплату путевки подтверждается сертификатом, выдаваемым в органах местного самоуправления </span>
-            <span class="doc_subtitle-2"> Мы поможем Вам реализовать эту возможность! </span>
-            <span class="doc_subtitle-3">Все документы оформляются у нас в офисе</span>
-          </div>
-          <!--Универсальная ФОРМА-->
-          <div class="reser_doc">
-            <span class="title_reser">Не упустите возможность сэкономить до 16 800 рублей на путевке для Вашего ребенка</span>
-            <span class="subtitle_form h dc"
-              >Узнайте как получить сертификат на соцподдержку<br />
-              Для этого заполните форму ниже - мы перезвоним Вам для консультации
-            </span>
-            <form action="#" class="up-form">
-              <input type="text" value="" class="input-1" placeholder="Ваше имя" />
-              <input type="tel" value="" class="input-2" placeholder="Ваш телефон" />
-              <input type="submit" class="button" value="Получить консультацию" />
-            </form>
-            <div class="callus"><span class="form-text pa-text">или перезвоните нам по телефону:</span><a href="tel:+78182208010" class="tel-link">+7 (8182) 20-80-10</a></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="background-2">
-        <div class="container_5">
-          <span class="comfort_title"
-            >В лагерях, с которыми мы сотрудничаем,<br />
-            обеспечены все условия для комфортного пребывания детей</span
-          >
-          <div class="comfort_container">
-            <div class="comfort_block">
-              <div class="comfort_div">
-                <div class="comfort_img_block">
-                  <img src="img/comfort-1.png" alt="IMG" class="comfort_div_img" />
+        <!-- money -->
+        <div class="container">
+          <div class="main-money">
+            <h2 class="money_title">Резерв валюты</h2>
+            <div class="money">
+              <div class="money__block">
+                <img src="img/ya_money_change.png" alt="" class="money-img" />
+                <div class="money-text">
+                  <span class="money-name">Yandex RUB</span>
+                  <span class="money-number">900549</span>
                 </div>
-                <div class="comfort_div_block">
-                  <span class="comfort_div_title">На связи в любой момент</span>
-                  <span class="comfort_div_text"
-                    >24 часа/сут на связи педагог, сопровождающий<br />
-                    ребенка. Еще до поездки Вы можете познакомиться с<br />
-                    ним и обсудить особенности Вашего ребенка.</span
-                  >
+              </div>
+              <div class="money__block">
+                <img src="img/ethere_icon.png" alt="" class="money-img" />
+                <div class="money-text">
+                  <span class="money-name">Ethereum ETH</span>
+                  <span class="money-number">123</span>
+                </div>
+              </div>
+              <div class="money__block">
+                <img src="img/bitcoin_icon.png" alt="" class="money-img" />
+                <div class="money-text">
+                  <span class="money-name">Bitcoin BTC</span>
+                  <span class="money-number">0.63333439</span>
+                </div>
+              </div>
+              <div class="money__block">
+                <img src="img/sber_change_icon.png" alt="" class="money-img" />
+                <div class="money-text">
+                  <span class="money-name">0.63333439</span>
+                  <span class="money-number">142666</span>
                 </div>
               </div>
             </div>
-
-            <div class="comfort_block">
-              <div class="comfort_div">
-                <div class="comfort_img_block">
-                  <img src="img/comfort-2.png" alt="IMG" class="comfort_div_img" />
-                </div>
-                <div class="comfort_div_block">
-                  <span class="comfort_div_title">5-разовое питание</span>
-                  <span class="comfort_div_text"
-                    >Завтрак, обед, полдник, ужин, сонник<br />Разнообразное полноценное питание от опытных<br />
-                    поваров</span
-                  >
+            <div class="money">
+              <div class="money__block">
+                <img src="img/privat_icon.png" alt="" class="money-img" />
+                <div class="money-text">
+                  <span class="money-name">Приват 24 UAH</span>
+                  <span class="money-number">142666</span>
                 </div>
               </div>
-            </div>
-
-            <div class="comfort_block">
-              <div class="comfort_div">
-                <div class="comfort_img_block">
-                  <img src="img/comfort-3.png" alt="IMG" class="comfort_div_img" />
-                </div>
-                <div class="comfort_div_block">
-                  <span class="comfort_div_title"
-                    >Огражденная территория вечером<br />
-                    освещена</span
-                  >
-                  <span class="comfort_div_text">Видеонаблюдение 24 часа/сут.<br />Пропускной контроль</span>
+              <div class="money__block">
+                <img src="img/paypall-icon.png" alt="" class="money-img" />
+                <div class="money-text">
+                  <span class="money-name">PayPal USD</span>
+                  <span class="money-number">5139.58</span>
                 </div>
               </div>
-            </div>
-
-            <div class="comfort_block">
-              <div class="comfort_div">
-                <div class="comfort_img_block">
-                  <img src="img/comfort-4.png" alt="IMG" class="comfort_div_img" />
-                </div>
-                <div class="comfort_div_block">
-                  <span class="comfort_div_title">Собственные пляжи</span>
-                  <span class="comfort_div_text">Чистые песчаные или галечные пляжи<br />Дежурная спасательная группа на каждом пляже</span>
+              <div class="money__block">
+                <img src="img/pm_icon.png" alt="" class="money-img" />
+                <div class="money-text">
+                  <span class="money-name">PM USD</span>
+                  <span class="money-number">3192.22</span>
                 </div>
               </div>
-            </div>
-
-            <div class="comfort_block">
-              <div class="comfort_div">
-                <div class="comfort_img_block">
-                  <img src="img/comfort-5.png" alt="IMG" class="comfort_div_img" />
-                </div>
-                <div class="comfort_div_block">
-                  <span class="comfort_div_title">Спортивные площадки на территории</span>
-                  <span class="comfort_div_text"
-                    >В каждом лагере предусмотрены<br />
-                    специальнооборудованные<br />
-                    площадки для активных игр детей</span
-                  >
-                </div>
-              </div>
-            </div>
-
-            <div class="comfort_block">
-              <div class="comfort_div">
-                <div class="comfort_img_block">
-                  <img src="img/comfort-6.png" alt="IMG" class="comfort_div_img" />
-                </div>
-                <div class="comfort_div_block">
-                  <span class="comfort_div_title"
-                    >Современные оборудованные<br />
-                    корпуса
-                  </span>
-                  <span class="comfort_div_text">Свежий ремонт в комнатах </span>
+              <div class="money__block">
+                <img src="img/qiwi_icon.png" alt="" class="money-img" />
+                <div class="money-text">
+                  <span class="money-name">Qiwi RUB</span>
+                  <span class="money-number">99243.321</span>
                 </div>
               </div>
             </div>
@@ -301,327 +209,149 @@
         </div>
       </div>
 
-      <div class="container_6">
-        <span class="team_title"
-          >Компания "Семь Континентов" - мы работаем с 2006 года<br />
-          на рынке туристических услуг</span
-        >
-        <span class="team_subtitle">Более 11 лет в сфере организации детского отдыха</span>
-        <div class="team_elena">
-          <div class="team_elena_img-div">
-            <img src="img/elena.png" alt="ELENA" class="team_elena_img" />
-          </div>
-          <div class="team_elena_text">
-            <span class="team_elena_title">Елена Вячеславовна Траберг </span>
-            <span class="team_elena_subtitle">директор компании "7 континентов" </span>
-            <ul class="team_elena_ul">
-              <li class="team_elena_li">опыт работы</li>
-              <li class="team_elena_li">опыт работы</li>
-              <li class="team_elena_li">опыт работы</li>
-              <li class="team_elena_li">опыт работы</li>
-              <li class="team_elena_li">опыт работы</li>
-            </ul>
-          </div>
-        </div>
-        <span class="team_subtitle_2">Наша дружная команда профессионалов своего дела </span>
-        <div class="team_all">
-          <div class="team_all_img-div">
-            <img src="img/masha.png" alt="GIRL" class="team_all_img" />
-          </div>
-          <div class="team_all_text">
-            <span class="team_all_title">Светлана Бедрицкая </span>
-            <span class="team_all_subtitle">Руководитель "Школы вожатского мастерства"</span>
-          </div>
-
-          <div class="team_all_img-div">
-            <img src="img/dasha.png" alt="GIRL" class="team_all_img" />
-          </div>
-          <div class="team_all_text">
-            <span class="team_all_title">Светлана Бедрицкая </span>
-            <span class="team_all_subtitle">Руководитель "Школы вожатского мастерства"</span>
-          </div>
-
-          <div class="team_all_img-div">
-            <img src="img/papasha.png" alt="GIRL" class="team_all_img" />
-          </div>
-          <div class="team_all_text">
-            <span class="team_all_title">Светлана Бедрицкая </span>
-            <span class="team_all_subtitle">Руководитель "Школы вожатского мастерства"</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="background-3">
-        <div class="container_7">
-          <span class="stage_title"
-            >Корпоративная школа профессиональных вожатых<br />
-            - гарантия безопасности Ваших детей
-          </span>
-          <span class="stage_subtitle"
-            >Каждый вожатый проходит дополнительное обучение<br />
-            в нашей школе - курс из 36 занятий по 2 часа
-          </span>
-          <span class="stage_subtitle_2">4 этапа обучения:</span>
-          <div class="stage">
-            <div class="stage-div">
-              <span class="stage-div_subtitle-1">1 этап</span>
-              <div class="stage-div_block_img">
-                <img src="img/learning.png" alt="PHOTO" class="stage-div_img" />
-              </div>
-              <span class="stage-div_title">Теоретическая часть</span>
-              <span class="stage-div_subtitle">Возрастная физиология</span>
-              <span class="stage-div_subtitle">Оказание первой помощи</span>
-              <span class="stage-div_subtitle">Правила поощрения и наказания</span>
-              <span class="stage-div_subtitle"
-                >Стандартные и нестандартные<br />
-                ситуации</span
+      <!-- БЛОК СО СВАЙПЕРОМ ОТЗЫВОВ -->
+      <div class="swiper-container">
+        <h2 class="slider-title">Что клиенты говорят о нас</h2>
+        <div class="swiper-wrapper">
+          <!-- СЛАЙДЫ -->
+          <div class="swiper-slide">
+            <div class="main-text-slider">
+              <span class="text-slider"
+                >Киви переправил деньги не на кошелек а на номер мтс будьте внимательны.даже в этом случаи делают возврат и переводят на приват.особая благодарность оператору Марии</span
               >
             </div>
-            <div class="arrow-div">
-              <img src="img/right-arrow.png" alt="ARROW" class="arrow-img" />
+            <div class="sub-text-slider">
+              <span class="name-slider">Jacob Robertson</span>
+              <span class="date-slider">20.02.2020, 12:10</span>
             </div>
-
-            <div class="stage-div">
-              <span class="stage-div_subtitle-1">2 этап</span>
-              <div class="stage-div_block_img">
-                <img src="img/dancer.png" alt="PHOTO" class="stage-div_img" />
-              </div>
-              <span class="stage-div_title">Выдача сертификата вожатого</span>
-              <span class="stage-div_subtitle">Знакомства</span>
-              <span class="stage-div_subtitle">Игры, квесты, тренинги</span>
-              <span class="stage-div_subtitle">Адаптация детей</span>
+          </div>
+          <div class="swiper-slide">
+            <div class="main-text-slider">
+              <span class="text-slider"
+                >Киви переправил деньги не на кошелек а на номер мтс будьте внимательны.даже в этом случаи делают возврат и переводят на приват.особая благодарность оператору Марии</span
+              >
             </div>
-            <div class="arrow-div">
-              <img src="img/right-arrow.png" alt="ARROW" class="arrow-img" />
+            <div class="sub-text-slider">
+              <span class="name-slider">Jacob Robertson</span>
+              <span class="date-slider">20.02.2020, 12:10</span>
             </div>
-
-            <div class="stage-div">
-              <span class="stage-div_subtitle-1">3 этап</span>
-              <div class="stage-div_block_img">
-                <img src="img/kneecap.png" alt="PHOTO" class="stage-div_img" />
-              </div>
-              <span class="stage-div_title">Выдача сертификата вожатого</span>
-              <span class="stage-div_subtitle">Оказание первой помощи</span>
-              <span class="stage-div_subtitle">Моделирование ситуаций и пути<br />их разрешения</span>
+          </div>
+          <div class="swiper-slide">
+            <div class="main-text-slider">
+              <span class="text-slider"
+                >Киви переправил деньги не на кошелек а на номер мтс будьте внимательны.даже в этом случаи делают возврат и переводят на приват.особая благодарность оператору Марии</span
+              >
             </div>
-            <div class="arrow-div">
-              <img src="img/right-arrow.png" alt="ARROW" class="arrow-img" />
+            <div class="sub-text-slider">
+              <span class="name-slider">Jacob Robertson</span>
+              <span class="date-slider">20.02.2020, 12:10</span>
             </div>
-
-            <div class="stage-div">
-              <span class="stage-div_subtitle-1">4 этап</span>
-              <div class="stage-div_block_img">
-                <img src="img/exam.png" alt="PHOTO" class="stage-div_img" />
-              </div>
-              <span class="stage-div_title">Экзамен</span>
-              <span class="stage-div_subtitle">3 вопроса: теория, анимация,<br />практическая задача</span>
-              <span class="stage-div_subtitle">Выдача сертификата вожатого</span>
+          </div>
+          <div class="swiper-slide">
+            <div class="main-text-slider">
+              <span class="text-slider"
+                >Киви переправил деньги не на кошелек а на номер мтс будьте внимательны.даже в этом случаи делают возврат и переводят на приват.особая благодарность оператору Марии</span
+              >
             </div>
+            <div class="sub-text-slider">
+              <span class="name-slider">Jacob Robertson</span>
+              <span class="date-slider">20.02.2020, 12:10</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="main-text-slider">
+              <span class="text-slider"
+                >Киви переправил деньги не на кошелек а на номер мтс будьте внимательны.даже в этом случаи делают возврат и переводят на приват.особая благодарность оператору Марии</span
+              >
+            </div>
+            <div class="sub-text-slider">
+              <span class="name-slider">Jacob Robertson</span>
+              <span class="date-slider">20.02.2020, 12:10</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="main-text-slider">
+              <span class="text-slider"
+                >Киви переправил деньги не на кошелек а на номер мтс будьте внимательны.даже в этом случаи делают возврат и переводят на приват.особая благодарность оператору Марии</span
+              >
+            </div>
+            <div class="sub-text-slider">
+              <span class="name-slider">Jacob Robertson</span>
+              <span class="date-slider">20.02.2020, 12:10</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="main-text-slider">
+              <span class="text-slider"
+                >Киви переправил деньги не на кошелек а на номер мтс будьте внимательны.даже в этом случаи делают возврат и переводят на приват.особая благодарность оператору Марии</span
+              >
+            </div>
+            <div class="sub-text-slider">
+              <span class="name-slider">Jacob Robertson</span>
+              <span class="date-slider">20.02.2020, 12:10</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="main-text-slider">
+              <span class="text-slider"
+                >Киви переправил деньги не на кошелек а на номер мтс будьте внимательны.даже в этом случаи делают возврат и переводят на приват.особая благодарность оператору Марии</span
+              >
+            </div>
+            <div class="sub-text-slider">
+              <span class="name-slider">Jacob Robertson</span>
+              <span class="date-slider">20.02.2020, 12:10</span>
+            </div>
+          </div>
+        </div>
+        <div class="button-slider-navigation">
+          <div class="button-prev">
+            <img src="img/arrow_left.png" alt="" class="arrow_slider" />
+          </div>
+          <div class="button-next">
+            <img src="img/Arrow_right.png" alt="" class="arrow_slider" />
           </div>
         </div>
       </div>
 
-      <div class="stage_slider">
-        <div class="stage_slider-div">
-          <img src="img/stage_1.png" alt="UHTW" class="stage_slider_img" />
-        </div>
-        <div class="stage_slider-div">
-          <img src="img/stage_2.png" alt="UHTW" class="stage_slider_img" />
-        </div>
-        <div class="stage_slider-div">
-          <img src="img/stage_3.png" alt="UHTW" class="stage_slider_img" />
-        </div>
-        <div class="stage_slider-div">
-          <img src="img/stage_4.png" alt="UHTW" class="stage_slider_img" />
-        </div>
-        <div class="stage_slider-div">
-          <img src="img/stage_5.png" alt="UHTW" class="stage_slider_img" />
-        </div>
-        <div class="stage_slider-div">
-          <img src="img/stage_6.png" alt="UHTW" class="stage_slider_img" />
-        </div>
-      </div>
-
-      <div class="container_8">
-        <div class="steps">
-          <span class="steps_maintitle">5 шагов к счастливому отдыху Вашего ребенка</span>
-          <div class="steps_block">
-            <div class="steps_block-div">
-              <img src="img/steps_1.png" alt="STEPS_IMG" class="steps_img" />
-              <span class="steps_title">Вы оставляете заявку на сайте</span>
-              <a href="#" class="steps_link">Оставить заявку</a>
-            </div>
-            <div class="arrow_block">
-              <img src="img/right-arrow.png" alt="ARROW" />
-            </div>
-            <div class="steps_block-div">
-              <img src="img/steps_2.png" alt="STEPS_IMG" class="steps_img" />
-              <span class="steps_title">Мы связываемся с Вами по телефону</span>
-            </div>
-            <div class="arrow_block">
-              <img src="img/right-arrow.png" alt="ARROW" />
-            </div>
-            <div class="steps_block-div">
-              <img src="img/steps_3.png" alt="STEPS_IMG" class="steps_img" />
-              <span class="steps_title">Подбираем и бронируем подходящую путевку</span>
-            </div>
-          </div>
-          <div class="steps_block">
-            <div class="steps_block-div">
-              <img src="img/steps_4.png" alt="STEPS_IMG" class="steps_img" />
-              <span class="steps_title">Вы получаете документы у нас в офисе или по почте</span>
-            </div>
-            <div class="arrow_block">
-              <img src="img/right-arrow.png" alt="ARROW" />
-            </div>
-            <div class="steps_block-div">
-              <img src="img/steps_5.png" alt="STEPS_IMG" class="steps_img" />
-              <span class="steps_title">Проводим организационное собрание с вожатыми и родителями</span>
-            </div>
-            <div class="arrow_block">
-              <img src="img/right-arrow.png" alt="ARROW" />
-            </div>
-            <div class="steps_block-div">
-              <img src="img/steps_6.png" alt="STEPS_IMG" class="steps_img" />
-              <span class="steps_title">Ваш ребенок на незабываемом отдыхе</span>
-            </div>
-          </div>
-          <!-- /STEPS block -->
-        </div>
-        <!-- STEPS -->
-      </div>
-
-      <div class="background-4">
-        <div class="container_9">
-          <span class="license_title">Мы имеем все необходимые лицензии и входим в Единый Федеральный реестр туроператоров РФ под номером: ВНТ- 016164</span>
-          <div class="license_block">
-            <div class="license_doc">
-              <img src="img/doc-1.png" alt="DOC-1" class="license_img" />
-              <span class="license_text">Лицензия туроператора</span>
-            </div>
-
-            <div class="license_doc">
-              <img src="img/doc-1.png" alt="DOC-1" class="license_img" />
-              <span class="license_text">Ассоциация туроператоров</span>
-            </div>
-
-            <div class="license_doc">
-              <img src="img/doc-1.png" alt="DOC-1" class="license_img" />
-              <span class="license_text">Свидетельство о регистарции<br />юридического лица</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container_10">
-        <div class="fb">
-          <span class="fb_title">За 11 лет успешной работы мы получили множество наград и отзывов</span>
-          <span class="fb_subtitle">Награды и благодарности федерального уровня</span>
-          <div class="fb_slider_1">
-            <img src="img/arrow_left.png" alt="LEFT" class="arrow_left" />
-
-            <div class="fb_slider_img">
-              <img src="img/doc_2.png" alt="DOC" class="fb_img" />
-              <div class="fb_img_text">
-                <span class="fb_img_title">От Виктора Павленко</span>
-                <span class="fb_img_subtitle">Губернатор Архангельской области, 2015 год</span>
-              </div>
-            </div>
-
-            <div class="fb_slider_img">
-              <img src="img/doc_2.png" alt="DOC" class="fb_img" />
-              <div class="fb_img_text">
-                <span class="fb_img_title">От Виктора Павленко</span>
-                <span class="fb_img_subtitle">Губернатор Архангельской области, 2015 год</span>
-              </div>
-            </div>
-
-            <div class="fb_slider_img">
-              <img src="img/doc_2.png" alt="DOC" class="fb_img" />
-              <div class="fb_img_text">
-                <span class="fb_img_title">От Виктора Павленко</span>
-                <span class="fb_img_subtitle">Губернатор Архангельской области, 2015 год</span>
-              </div>
-            </div>
-
-            <img src="img/arrow_right.png" alt="RIGHT" class="arrow_right" />
-          </div>
-
-          <span class="fb_slider_title_2">Благодарности от родителей</span>
-          <div class="fb_slider_2">
-            <img src="img/arrow_left.png" alt="LEFT" class="arrow_left" />
-
-            <div class="fb_slider_img">
-              <img src="img/doc_2.png" alt="DOC" class="fb_img" />
-              <div class="fb_img_text">
-                <span class="fb_img_title">Имя ФамилияИмя Фамилия</span>
-                <span class="fb_img_subtitle"
-                  >лагерь, <br />
-                  год</span
-                >
-              </div>
-            </div>
-
-            <div class="fb_slider_img">
-              <img src="img/doc_2.png" alt="DOC" class="fb_img" />
-              <div class="fb_img_text">
-                <span class="fb_img_title">Имя ФамилияИмя Фамилия</span>
-                <span class="fb_img_subtitle"
-                  >лагерь, <br />
-                  год</span
-                >
-              </div>
-            </div>
-
-            <div class="fb_slider_img">
-              <img src="img/doc_2.png" alt="DOC" class="fb_img" />
-              <div class="fb_img_text">
-                <span class="fb_img_title">Имя ФамилияИмя Фамилия</span>
-                <span class="fb_img_subtitle"
-                  >лагерь, <br />
-                  год</span
-                >
-              </div>
-            </div>
-
-            <img src="img/arrow_right.png" alt="RIGHT" class="arrow_right" />
-          </div>
+      <div class="container_now">
+        <div class="now">
+          <h2 class="now__title">Будем рады предоставить Вам качественный обмен валют на нашем сервисе!</h2>
+          <span class="now__subtitle">Начните обмен прямо сейчас!</span>
+          <button onclick="document.location='#'" class="now__button"><span class="btn_text_2">Начните обмен</span></button>
         </div>
       </div>
     </main>
 
     <footer class="footer">
-      <div class="footer_block">
-        <script
-          type="text/javascript"
-          charset="utf-8"
-          async
-          src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A47839e0ce19c12a49230c289d2ee6bdc8f84e496451c174f654a2f166c736689&amp;width=876&amp;height=790&amp;lang=ru_RU&amp;scroll=true"
-        ></script>
-        <div class="footer_contact">
-          <span class="footer_title">Вы всегда можете получить полную информацию по путевкам для детского отдыха в нашем офисе</span>
-          <span class="footer_text"
-            >г. Архангельск<br />
-            пр. Чумбарова-Лучинского, д. 39, офис 28</span
+      <nav class="menu_footer">
+        <div class="logo_block">
+          <a href="#" class="menu_link"><img src="img/logo.png" alt="LOGO" class="logo" /></a>
+          <a href="#" class="menu_link"
+            ><span class="logo_text">moneyex<span class="logo_text_2">change</span></span></a
           >
-          <span class="footer_subtitle">Режим работы:</span>
-          <span class="footer_text"
-            >Пн- Пт с 10:00 до 19:00<br />
-            Сб 11-16:00, Вс - выходной</span
-          >
-          <span class="footer_subtitle">Контакты:</span>
-          <a href="tel:+78182208010" class="footer_tel_1">+7 (8182) 20-80-10</a>
-          <a tel:+79600028010 class="footer_tel">+7 (960) 002 80 10</a>
-          <span class="footer_text"
-            >Если возникли вопросы, вы можете<br />
-            написать нам на электронную почту</span
-          >
-          <a href="mailto:7knt@mail.ru" class="footer_link">7knt@mail.ru</a>
+          <div class="s">
+            <span class="name_logo">Сервис обмена электронных валют</span>
+          </div>
         </div>
-      </div>
+
+        <div class="menu_navigation_footer">
+          <ul class="menu_ul_footer">
+            <li class="menu_li_footer"><a href="#" class="menu_link_footer">Карта сайта</a></li>
+            <li class="menu_li_footer"><a href="#" class="menu_link_footer">Предупреждение</a></li>
+            <li class="menu_li_footer"><a href="#" class="menu_link_footer">Правила сайта</a></li>
+            <li class="menu_li_footer"><a href="#" class="menu_link_footer">Обмен</a></li>
+          </ul>
+        </div>
+
+        <div class="sochial_icon">
+          <a href="#" class="footer_icon"><img src="img/vk.png" alt="SOCHIAL" class="footer_icon" /></a>
+          <a href="#" class="footer_icon"><img src="img/facebook.png" alt="SOCHIAL" class="footer_icon" /></a>
+          <a href="#" class="footer_icon"><img src="img/instagram.png" alt="SOCHIAL" class="footer_icon" /></a>
+        </div>
+      </nav>
     </footer>
 
-
-<script src="js/script.js"></script>
-
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>

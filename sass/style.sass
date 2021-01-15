@@ -1,0 +1,572 @@
+// настройка
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap')
+
+body
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+  font-family: 'Rubik', sans-serif
+  font-weight: 500
+  background: #fff
+
+ul, li, a
+  list-style: none
+  text-decoration: none
+  margin: 0
+  padding: 0
+
+h1, h2, h3, h4, h5, h6
+  padding: 0
+  margin: 0
+
+.container
+  max-width: 1140px
+  width: 100%
+  margin: 0 auto
+
+  // MENU
+
+.menu
+  display: flex
+  justify-content: space-around
+  align-items: center
+  height: 90px
+  width: 100%
+  background-color: #fff
+
+.logo
+  width: 15px
+  height: 15px
+
+.logo_text
+  font-family: 'Montserrat', sans-serif
+  font-style: normal
+  font-weight: 700
+  font-size: 24px
+  line-height: 24px
+  padding-left: 8px
+
+.logo_text_2
+  font-family: 'Montserrat', sans-serif
+  font-style: normal
+  font-weight: 400
+  font-size: 24px
+  line-height: 24px
+
+.manu_ul
+  display: flex
+  justify-content: space-between
+  width: 280px
+
+.menu_link
+  font-family: Rubik
+  font-style: normal
+  font-weight: normal
+  font-size: 16px
+  line-height: 19px
+  color: #4E5983
+
+.input
+  font-family: Rubik
+  font-style: normal
+  font-weight: normal
+  font-size: 16px
+  line-height: 19px
+  color: #4E5983
+  padding-right: 31px
+
+.reg
+  background-color: rgba(161, 127, 255, 0.11)
+  padding: 18px 14px
+  border-radius: 9px
+  border: none
+  cursor: pointer
+  outline: none
+
+.btn_text
+  font-family: Rubik
+  font-style: normal
+  font-weight: 500
+  font-size: 16px
+  line-height: 19px
+  text-align: center
+  color: #4E5983
+
+  // HEADER
+.background
+  background-image: url("../img/bg-header.png")
+  background-repeat: no-repeat
+  background-size: cover
+
+.header_form
+  display: flex
+  background-image: url("../img/aga-bg.png")
+  background-repeat: no-repeat
+  background-size: 100%
+  padding: 80px 120px 200px 120px
+
+.select
+  position: relative
+  display: flex
+  align-items: center
+
+.select::after
+  content: ""
+  display: block
+  border-style: solid
+  border-width: 8px 6px 0 6px
+  border-color: #4e5983 transparent transparent transparent
+  position: absolute
+  top: 50%
+  right: 1rem
+  z-index: 1
+  margin-top: -3px
+
+.select select
+  padding: 10px 10px
+  background: none
+  border: none
+  appearance: none
+  font-family: inherit
+  font-size: 20px
+  color: #000
+  outline: none
+  width: 120px
+
+.header_title
+  padding-top: 119px
+  padding-bottom: 30px
+  font-family: Rubik
+  font-style: normal
+  font-weight: bold
+  font-size: 60px
+  line-height: 111.9%
+  text-align: center
+  color: #FFFFFF
+
+.header_subtitle
+  padding-bottom: 55px
+  font-family: Rubik
+  font-style: normal
+  font-weight: normal
+  font-size: 19px
+  line-height: 23px
+  color: #fff
+  text-align: center
+
+.header_form
+  display: flex
+  justify-content: space-between
+  align-items: flex-end
+  flex-wrap: wrap
+
+.section_1, .section_2
+  display: flex
+  flex-direction: column
+
+.section_1
+  padding-right: 40px
+
+.section_2
+  padding-left: 40px
+
+.form_text
+  padding-bottom: 40px
+  font-family: Rubik
+  font-style: normal
+  font-weight: 500
+  font-size: 18px
+  line-height: 21px
+  color: #4E5983
+
+.dop_text
+  padding-left: 15px
+  font-family: Rubik
+  font-style: normal
+  font-weight: normal
+  font-size: 12px
+  line-height: 14px
+  opacity: 0.5
+  color: #4E5983
+
+.form_label
+  font-family: Rubik
+  font-style: normal
+  font-weight: normal
+  font-size: 14px
+  line-height: 17px
+  color: #4E5983
+  opacity: 0.5
+
+.form_change_num
+  display: flex
+  flex-direction: row
+  border-bottom: 1px solid #D6DCE2
+
+.form_input
+  border: none
+  background: none
+  font-family: Proxima Nova
+  font-style: normal
+  font-weight: normal
+  width: 180px
+  height: 42px
+  font-size: 20px
+  letter-spacing: 0.015em
+  color: #094067
+  border-right: 1px solid #CFD4DA
+
+.sber_form
+  display: flex
+  align-items: center
+  width: 35px
+  height: 35px
+  padding: 0 23px
+
+.arrow_todo
+  width: 15px
+  height: 16px
+  padding-bottom: 13px
+
+.btn_form
+  background: linear-gradient(140.59deg, #562EC2 29.59%, #A07EFE 73.59%)
+  opacity: 0.8
+  border-radius: 9px
+  border: none
+  width: 157px
+  height: 55px
+  margin-top: 40px
+  cursor: pointer
+
+.btn_text_form
+  font-family: Rubik
+  font-style: normal
+  font-weight: bold
+  font-size: 14px
+  line-height: 17px
+  text-align: center
+  color: #FFFFFF
+
+  // REFFERAL
+
+.referal
+  display: flex
+  justify-content: space-between
+  margin-top: 100px
+
+  &__content
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    flex-basis: 33.3333%
+    max-width: 300px
+
+.rcontent__img
+  padding-bottom: 30px
+
+.referal__title
+  padding-bottom: 32px
+  font-family: Rubik
+  font-style: normal
+  font-weight: 500
+  font-size: 22px
+  line-height: 26px
+  color: #4E5983
+
+.referal__text
+  margin-bottom: 120px
+  font-family: Rubik
+  font-style: normal
+  font-weight: normal
+  font-size: 16px
+  line-height: 166.5%
+  color: #4E5983
+  opacity: 0.7
+
+  // SERVICE
+
+.background_2
+  background-image: url("../img/bg_2.png")
+  background-repeat: no-repeat
+  background-size: cover
+  background-position-y: 275px
+
+.service
+  display: flex
+  justify-content: space-between
+  align-items: center
+  max-width: 1240px
+  margin: 0 auto
+  padding: 100px 0
+  width: 100%
+  background-image: url("../img/bg-service.png")
+  background-repeat: no-repeat
+  background-size: 100%
+  z-index: 5
+  margin-bottom: 140px
+
+  &__text
+    max-width: 400px
+    padding-left: 160px
+
+  &__title
+    font-family: Rubik
+    font-style: normal
+    font-weight: 500
+    font-size: 35px
+    line-height: 132.4%
+    color: #160647
+    padding-bottom: 30px
+
+  &__subtitle
+    font-family: Rubik
+    font-style: normal
+    font-weight: normal
+    font-size: 18px
+    line-height: 166.5%
+    color: #4E5983
+    opacity: 0.7
+
+  &_img
+
+.twomen
+  width: 650px
+  height: 335px
+
+  // MONEY
+
+main-money
+  display: flex
+  flex-direction: column
+
+.money_title
+  text-align: center
+  font-family: Rubik
+  font-style: normal
+  font-weight: 500
+  font-size: 35px
+  text-align: center
+  color: #160647
+  padding-bottom: 100px
+
+.money
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+  margin-bottom: 90px
+
+.money:last-child
+  margin-bottom: 160px
+
+.money__block
+  display: flex
+  flex-direction: row
+  align-items: center
+  max-width: 154px
+
+.money-img
+  padding-right: 30px
+  width: 50px
+  height: 50px
+
+.money-text
+  display: flex
+  flex-direction: column
+
+.money-name
+  font-family: Rubik
+  font-style: normal
+  font-weight: normal
+  font-size: 16px
+  line-height: 19px
+  color: #A4AABF
+
+.money-number
+  font-family: Rubik
+  font-style: normal
+  font-weight: normal
+  font-size: 20.5714px
+  line-height: 155.5%
+  color: #160647
+
+  // СЛАЙДЕР С ОТЗЫВАМИ
+.swiper-container
+  max-width: 1120px
+  margin: 0 auto
+  min-width: 0
+
+.slider-title
+  font-family: Rubik
+  font-style: normal
+  font-weight: 500
+  font-size: 35px
+  line-height: 132.4%
+  color: #160647
+  padding-bottom: 115px
+
+.swiper-wrapper
+  display: flex
+  justify-content: space-between
+  min-width: 0
+
+.swiper-slide
+  background-image: url("../img/bg-slide.png")
+  background-repeat: no-repeat
+  background-size: 50%
+  background-position-x: -100px
+  background-position-y: top
+
+.main-text-slider
+  padding-bottom: 60px
+
+.text-slider
+  font-family: Rubik
+  font-style: normal
+  font-weight: normal
+  font-size: 18px
+  line-height: 166%
+  color: #4E5983
+  opacity: 0.7
+
+.name-slider
+  font-family: Rubik
+  font-style: normal
+  font-weight: normal
+  font-size: 20px
+  line-height: 155.5%
+  color: #160647
+  padding-right: 40px
+
+.date-slider
+  font-family: Rubik
+  font-style: normal
+  font-weight: normal
+  font-size: 14px
+  line-height: 17px
+  color: #838BA8
+
+.button-slider-navigation
+  display: flex
+  justify-content: flex-end
+  margin: 50px 0 100px 0
+
+.button-prev
+  padding-right: 30px
+  cursor: pointer
+
+.button-next
+  cursor: pointer
+
+  // ОБМЕН ПРЯМО НАВ
+
+.container_now
+  max-width: 1238px
+  margin: 0 auto
+  width: 100%
+  background-image: url("../img/bg-obmen.png")
+  background-repeat: no-repeat
+  display: flex
+  justify-content: flex-end
+  margin-bottom: 125px
+
+.now
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: flex-start
+  padding: 80px 130px 60px 0
+  max-width: 470px
+
+  &__title
+    font-family: Rubik
+    font-style: normal
+    font-weight: 500
+    font-size: 35px
+    line-height: 132.4%
+    color: #FFFFFF
+    padding-bottom: 30px
+
+  &__subtitle
+    font-family: Rubik
+    font-style: normal
+    font-weight: normal
+    font-size: 18px
+    line-height: 166.5%
+    color: #FFFFFF
+    opacity: 0.7
+    padding-bottom: 50px
+
+  &__button
+    background: #FFFFFF
+    opacity: 0.9
+    border-radius: 10.2611px
+    width: 225px
+    height: 69px
+    border: none
+    margin-bottom: 15px
+
+.btn_text_2
+  font-family: Rubik
+  font-style: normal
+  font-weight: 500
+  font-size: 15.9618px
+  line-height: 19px
+  text-align: center
+  color: #9F7DFD
+
+  // ФУТЕР
+
+.footer
+  max-width: 1235px
+  margin: 0 auto
+  width: 100%
+
+.menu_footer
+  display: flex
+  justify-content: space-between
+
+.logo_footer
+  display: flex
+  flex-direction: column
+
+.name_logo
+  padding-left: 28px
+  font-family: Rubik
+  font-style: normal
+  font-weight: normal
+  font-size: 14px
+  line-height: 17px
+  color: #838BA8
+
+.s
+  padding-top: 18px
+  margin-bottom: 80px
+
+.menu_ul_footer
+  display: flex
+
+.menu_link_footer
+  font-family: Rubik
+  font-weight: normal
+  font-size: 16px
+  line-height: 19px
+  color: #4E5983
+
+.menu_li_footer
+  padding-right: 67px
+.menu_li_footer:last-of-type
+  padding-right: 0
+
+.sochial_icon
+  display: flex
+  padding-left: -67px
+
+.footer_icon
+  width: 26px
+  height: 26px
+  padding-right: 30px
+.footer_icon:last-child
+  padding-right: 0
+  // настройка
